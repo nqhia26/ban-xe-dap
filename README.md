@@ -1,22 +1,27 @@
-# Soroban Project
+# Title
+Bicycle Market Smart Contract
 
-## Project Structure
+# Description
+A decentralized marketplace built on the Stellar (Soroban) network for buying and selling bicycle parts. I built this project to learn about blockchain development and to create a transparent, trustless environment for cyclists to trade their gear securely.
 
-This repository uses the recommended structure for a Soroban project:
+# Features
+- List new bicycle parts with detailed specifications (category, condition, and price in stroops).
+- Securely purchase available items.
+- Update listing prices or unlist items from the marketplace.
+- Filter and retrieve active listings by categories (Drivetrain, Brakes, Frame, etc.).
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+# Contract
+Contract link: https://stellar.expert/explorer/testnet/contract/CBIZROXJ7R5M7ENRNSUWSXMMUDWG3WR6F7WIU3EXNUGNVT47ZF3JQNII
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+![Contract Screenshot]
+(Hãy bấm Ctrl + V hoặc Command + V để dán bức ảnh chụp màn hình ở Bước 1 vào đúng vị trí dòng này)
+
+# Future scopes
+- Build a user-friendly frontend interface using React.js and connect it with the Freighter wallet.
+- Add bidding and auction mechanisms for rare bicycle parts.
+- Implement an escrow system to ensure the safe shipping of physical items before releasing funds.
+
+# Profile
+- Name: [Điền Tên Của Bạn Vào Đây]
+- Skills: Rust, Smart Contracts, Stellar/Soroban Ecosystem.
+- Social: [Link LinkedIn hoặc GitHub của bạn]
